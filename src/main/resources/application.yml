@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    url: "jdbc:mysql://localhost:3306/restaudb?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true"
+    password: "root"
+    username: "root"
+  jpa:
+    database-platform: "org.hibernate.dialect.MySQL5InnoDBDialect"
+    database: "MYSQL"
+    hibernate.ddl-auto: "none"
+    hibernate.dialect: "org.hibernate.dialect.MySQLDialect"
+    hibernate.naming.implicit-strategy: "org.hibernate.boot.model.naming.ImplicitNamingStrategyLegacyJpaImpl"
+    hibernate.naming.physical-strategy: "org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl"
+    show-sql: "true"
